@@ -39,6 +39,17 @@ XER - XML Encoding Rules
 
 https://www.w3.org/Protocols/HTTP-NG/asn1.html
 
+https://web.archive.org/web/20160816005220/https://jan.newmarch.name/go/serialisation/chapter-serialisation.html
+
+https://www.eclipse.org/forums/index.php/t/1070344/
+
+## Used
+
+PER:
+- The Aeronautical Telecommunication Network (ATN)
+  Next-gen Europe air traffic control system (compact PER encoding)
+- EU eCall, Automatic Emergency Call (un-aligned PER)
+  https://sourceforge.net/p/asn1c/discussion/357921/thread/00714674/
 
 ## Summary/Hints
 
@@ -73,6 +84,13 @@ https://www.w3.org/Protocols/HTTP-NG/asn1.html
   - ASN.1 CHOICE types.
 
 
+* ASN1 BER Encode/Decode
+
+  https://github.com/go-asn1-ber/asn1-ber
+
+  Example of use:
+  https://github.com/bradleypeabody/godap/blob/master/godap.go
+
 * pyasn1 (Python)
 
   https://github.com/etingof/pyasn1
@@ -104,6 +122,19 @@ https://www.w3.org/Protocols/HTTP-NG/asn1.html
   * Forks handling APER used in S1AP:
     https://github.com/mouse07410/asn1c
     https://github.com/AuthenticEshkinKot/asn1c
+
+* Enhanced SNACC ASN.1 compiler
+
+  https://github.com/esnacc/esnacc-ng
+
+* ASN1SCC: An open source ASN.1 compiler for embedded systems
+
+  https://github.com/ttsiodras/asn1scc
+
+* Lexer for Go
+
+  https://github.com/blynn/nex
+
 
 # NGAP 38.413
 
