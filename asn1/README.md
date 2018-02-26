@@ -104,6 +104,11 @@ PER:
 
   - unaligned PER
 
+* pycrate: contains ASN.1 and CSN.1 compilers.
+
+  https://github.com/ANSSI-FR/pycrate
+
+  - aligned/unaligned PER + compiler
 
 * ANS.1 Compiler
 
