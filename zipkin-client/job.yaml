@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: zipkin-client-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: zipkin-client
+        image: bjornsv/zipkin-client:0.0.4
+        env:
+          - name: ZIPKIN_EP
+            value: "zipkin:9411"
+      restartPolicy: Never
+  backoffLimit: 4

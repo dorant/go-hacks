@@ -10,3 +10,4 @@
 * prometheus: Test of generating metrics
 * redis: Connect to a redis DB
 * struct-tags: Parsing own type tags
+* zipkin-client: K8s job that can create a test span
